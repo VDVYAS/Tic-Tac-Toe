@@ -102,3 +102,10 @@ button {
     border: hidden;
     color: white;
 }
+
+@media screen and (max-width: 800px) {
+    .reset {
+        position: relative;
+        margin-left: 39%;
+    }
+}
