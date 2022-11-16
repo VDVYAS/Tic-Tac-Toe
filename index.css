@@ -114,13 +114,13 @@ p {
         grid-template-rows: 140px 140px 140px;
     }
     p {
-        top: 30rem;
+        top: 35rem;
         font-size: 5rem;
     }
     .reset {
         top: 25rem;
         padding: 1rem 3rem;
-        font-size: 3rem;
+        font-size: 5rem;
         margin-left: 37.5%;
     }
 }
