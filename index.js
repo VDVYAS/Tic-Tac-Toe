@@ -25,9 +25,6 @@ const checkwin = () => {
         if ((boxtext[e[0]].innerText === boxtext[e[1]].innerText) && (boxtext[e[2]].innerText === boxtext[e[1]].innerText) && (boxtext[e[0]].innerText !== "")) {
             winning.play();
             document.querySelector('p').innerText = boxtext[e[0]].innerText + " Won"
-            boxtext[e[0]].style.backgroundColor = "#9b2525";
-            boxtext[e[1]].style.backgroundColor = "#9b2525";
-            boxtext[e[2]].style.backgroundColor = "#9b2525";
             boxtext[e[0]].style.fontSize = "350%";
             boxtext[e[1]].style.fontSize = "350%";
             boxtext[e[2]].style.fontSize = "350%";
