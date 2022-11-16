@@ -1,5 +1,6 @@
 .heading {
     position: relative;
+    margin-top: 25px;
     font-family: 'Fuzzy Bubbles', cursive;
     text-align: center;
     font-size: 50px;
@@ -84,28 +85,42 @@
 
 p {
     position: relative;
-    top: 70px;
+    margin-top: 70px;
     text-align: center;
     color: black;
     font-family: 'Fuzzy Bubbles', cursive;
     font-size: 150%;
 }
 
-button {
-    position: relative;
-    top: 100px;
-}
-
 .reset {
-    margin-left: 47%;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 46%;
     background-color: black;
     border: hidden;
     color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width:500px) {
+    .heading {
+        top: 20rem;
+        font-size: 100px;
+    }
+    .game {
+        top: 400px;
+        width: 420px;
+        height: 420px;
+        grid-template-columns: 140px 140px 140px;
+        grid-template-rows: 140px 140px 140px;
+    }
+    p {
+        top: 30rem;
+        font-size: 5rem;
+    }
     .reset {
-        position: relative;
-        margin-left: 39%;
+        top: 25rem;
+        padding: 1rem 3rem;
+        font-size: 3rem;
+        margin-left: 37.5%;
     }
 }
