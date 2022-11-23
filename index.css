@@ -101,26 +101,4 @@ p {
     color: white;
 }
 
-@media screen and (min-width:500px) {
-    .heading {
-        top: 20rem;
-        font-size: 100px;
-    }
-    .game {
-        top: 400px;
-        width: 420px;
-        height: 420px;
-        grid-template-columns: 140px 140px 140px;
-        grid-template-rows: 140px 140px 140px;
-    }
-    p {
-        top: 35rem;
-        font-size: 5rem;
-    }
-    .reset {
-        top: 25rem;
-        padding: 1rem 3rem;
-        font-size: 5rem;
-        margin-left: 37.5%;
-    }
-}
+
